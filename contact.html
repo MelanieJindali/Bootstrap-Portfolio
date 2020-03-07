@@ -39,14 +39,38 @@
         <h1 class="header2">Contact</h1> 
 
         <form>
-        Name<br>
-        <input type="text" placeholder="Your name..."><br>
-        Email<br>
-        <input type="text" placeholder="abc123@yahoo.com"><br>
-        Message<br>
-        <input id="message" type="text" placeholder="Hello!"><br>
-        </form>
-        <input class="submit" type="submit" value="Submit">
+          <div class="form-row">
+            <div class="col">
+              <p>First Name</p>
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <p>Last Name</p>
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <p class="block">Email</p>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="col">
+                <p class="block">Message</p>
+                <input type="text" class="form-control" placeholder="Hello there!">
+                </div>
+              </div>
+<br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+
+        </div>
+
+
     </div>
 </div>
 
